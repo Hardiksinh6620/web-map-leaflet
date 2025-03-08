@@ -1,0 +1,2 @@
+async function loadPoints(map){const response=await fetch("data/points.geojson");if(!response.ok)throw new Error(`HTTP ${response.status}`);const data=await response.json();const layer=L.geoJSON(data,{onEachFeature:(f,l)=>l.bindPopup(`<b>${f.properties.name}</b>`),pointToLayer:(f,ll)=>L.circleMarker(ll,{radius:8,color:"#1f77b4",fillOpacity:.7})}).addTo(map);map.fitBounds(layer.getBounds(),{padding:[30,30]});return layer;}
+window.loadPoints=loadPoints;
