@@ -1,0 +1,5 @@
+html,body,#map{height:100%;margin:0;padding:0}
+.legend{background:#fff;padding:8px;border-radius:4px;
+font:14px/1.4 sans-serif;box-shadow:0 0 6px rgba(0,0,0,.3)}
+.legend i{width:14px;height:14px;display:inline-block;
+margin-right:6px;vertical-align:middle}
