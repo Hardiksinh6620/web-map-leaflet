@@ -1,0 +1,8 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {"type":"Feature","properties":{"name":"Berlin Center"},"geometry":{"type":"Point","coordinates":[13.405,52.52]}},
+    {"type":"Feature","properties":{"name":"Museum Island"},"geometry":{"type":"Point","coordinates":[13.401,52.517]}},
+    {"type":"Feature","properties":{"name":"Alexanderplatz"},"geometry":{"type":"Point","coordinates":[13.413,52.521]}}
+  ]
+}
